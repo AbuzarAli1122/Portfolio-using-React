@@ -1,6 +1,6 @@
 import pic from '../assets/Disney-clone.jpg'
 import shoe from '../assets/nike-shoe.png'
-import weather from '../assets/weather.png'
+import organic from '../assets/organic.jpg'
 const projects=[
     {
         id:1,
@@ -16,12 +16,13 @@ const projects=[
         image:shoe,
         github:"https://github.com/AbuzarAli1122/EcommerceSneakers.git"
     },
+
     {
         id:3,
-        name:"Weather-App",
+        name:"Organic Store",
         Technology:"React-js",
-        image:weather,
-        github:"https://github.com/AbuzarAli1122/weather-app-react.git"
+        image:organic,
+        github:"https://github.com/AbuzarAli1122/Ecommerce-Store-.git"
     },
 ]
 function Project() {
