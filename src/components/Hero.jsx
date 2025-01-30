@@ -16,7 +16,7 @@ function Hero() {
       <div className='mt-8 space-x-4'>
        <a href="#contact"> <button className='bg-gradient-to-r from-green-400 to-blue-500 text-white hidden md:inline 
         transform transition-transform duration-300 hover:scale-110 px-4 py-2 rounded-full '>Contact with me</button></a>
-         <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+         <a href="/Resume(1).pdf" target="_blank" rel="noopener noreferrer">
         <button className='bg-gradient-to-r from-pink-500 to-yellow-500 text-white hidden md:inline 
         transform transition-transform duration-300 hover:scale-110 px-4 py-2 rounded-full '>Resume</button>
         </a>
