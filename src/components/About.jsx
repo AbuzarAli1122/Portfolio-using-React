@@ -19,7 +19,16 @@ function About() {
                 <label htmlFor="htmlandcss" className='w-2/12'>Html & Css</label>
                 <div className='grow bg-gray-800 rounded-full h-2.5'>
                     <div className='bg-gradient-to-r from-green-500 to-blue-400 h-2.5 rounded-full
-                    transform transition-transform duration-300 hover:scale-110 w-10/12'>
+                    transform transition-transform duration-300 hover:scale-110 w-11/12'>
+
+                    </div>
+                </div>
+             </div>
+             <div className='flex items-center'>
+                <label htmlFor="htmlandcss" className='w-2/12'>JS</label>
+                <div className='grow bg-gray-800 rounded-full h-2.5'>
+                    <div className='bg-gradient-to-r from-green-500 to-blue-400 h-2.5 rounded-full
+                    transform transition-transform duration-300 hover:scale-110 w-11/12'>
 
                     </div>
                 </div>
@@ -28,11 +37,12 @@ function About() {
                 <label htmlFor="htmlandcss" className='w-2/12'>React Js</label>
                 <div className='grow bg-gray-800 rounded-full h-2.5'>
                     <div className='bg-gradient-to-r from-green-500 to-blue-400 h-2.5 rounded-full
-                    transform transition-transform duration-300 hover:scale-110 w-11/12'>
+                    transform transition-transform duration-300 hover:scale-110 w-10/12'>
 
                     </div>
                 </div>
              </div>
+
              <div className='flex items-center'>
                 <label htmlFor="htmlandcss" className='w-2/12'>Node Js</label>
                 <div className='grow bg-gray-800 rounded-full h-2.5'>
@@ -43,22 +53,26 @@ function About() {
                 </div>
              </div>
             </div>
-            <div className='mt-12 flex justify-between text-center'>
-                 <div>
-                    <h3 className='text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r
-                    from-green-400 to-blue-500'>Internship</h3>
-                    <p>From Nevtech</p>
-                 </div>
-                 <div>
-                    <h3 className='text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r
-                    from-green-400 to-blue-500'>3+</h3>
-                    <p>Projects Completed</p>
-                 </div>
-                 <div>
-                    <h3 className='text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r
-                    from-green-400 to-blue-500'>Happy to Learn More</h3>
-                    <p>In the Field of web</p>
-                 </div>
+            {/* Work Part  */}
+           <div className="mt-12 flex flex-col sm:flex-row justify-between text-center space-y-6 sm:space-y-0 sm:space-x-4">
+              <div className="flex-1">
+                <h3 className="text-xl sm:text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">
+                  Internship
+                </h3>
+                <p className="text-sm sm:text-base">From Connect Solution</p>
+              </div>
+              <div className="flex-1">
+                <h3 className="text-xl sm:text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">
+                  3+
+                </h3>
+                <p className="text-sm sm:text-base">Projects Completed</p>
+              </div>
+              <div className="flex-1">
+                <h3 className="text-xl sm:text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">
+                  Happy to Learn More
+                </h3>
+                <p className="text-sm sm:text-base">In the Field of Web</p>
+              </div>
             </div>
             </div>
         </div>
