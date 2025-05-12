@@ -1,11 +1,17 @@
 import pic from '../assets/Disney-clone.jpg'
 import shoe from '../assets/nike-shoe.png'
 import organic from '../assets/organic.jpg'
+import iphone from '../assets/iphone.png'
+import Daraz from '../assets/Daraz.png'
+import weather from '../assets/weatherapp.webp'
+
+
+
 const projects=[
     {
         id:1,
         name:"Disney-Clone",
-        Technology:"Reactjs",
+        Technology:"Reactjs + TailwindCss",
         image:pic,
         github:"https://github.com/AbuzarAli1122/Disney-Clone.git"
     },
@@ -20,10 +26,32 @@ const projects=[
     {
         id:3,
         name:"Organic Store",
-        Technology:"React-js",
+        Technology:"React-js + Node js",
         image:organic,
         github:"https://github.com/AbuzarAli1122/Ecommerce-Store-.git"
     },
+    {
+        id:4,
+        name:"Apple Store",
+        Technology:"React-js + Gsap",
+        image:iphone,
+        github:"https://github.com/AbuzarAli1122/3dweb"
+    },
+     {
+        id:5,
+        name:"Daraz",
+        Technology:"React-js + TailwindCss + Gsap",
+        image:Daraz,
+        github:"https://github.com/AbuzarAli1122/Daraz-Clone"
+    },
+     {
+        id:6,
+        name:"Weather App",
+        Technology:"React-js + TailwindCss",
+        image:weather,
+        github:"https://github.com/AbuzarAli1122/weather-app-react"
+    },
+    
 ]
 function Project() {
   return (

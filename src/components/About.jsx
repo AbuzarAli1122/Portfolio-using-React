@@ -57,7 +57,7 @@ function About() {
            <div className="mt-12 flex flex-col sm:flex-row justify-between text-center space-y-6 sm:space-y-0 sm:space-x-4">
               <div className="flex-1">
                 <h3 className="text-xl sm:text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">
-                  Internship
+                  Full Time Employee
                 </h3>
                 <p className="text-sm sm:text-base">From Connect Solution</p>
               </div>
