@@ -1,6 +1,5 @@
 import react from 'react'
 import Navbar from './components/Navbar'
-import './App.css'
 import Hero from './components/Hero'
 import About from './components/About'
 import Service from './components/Service'
@@ -13,7 +12,7 @@ function App() {
 
   return (
     <>
-    <div>
+    <div style={{ backgroundColor:'black'}}>
 
       <Navbar/>
       <Hero/>
